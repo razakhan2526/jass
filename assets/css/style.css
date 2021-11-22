@@ -1,0 +1,1297 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf")
+}
+body {
+  font-family: 'Poppins-Regular' !important;
+  color: #202020;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  font-size: 14px;
+}
+h1 {
+  font-size: 65px !important;
+  font-weight: bold !important;
+}
+
+h2 {
+  font-size: 50px !important;
+  font-weight: 700 !important;
+}
+
+h3 {
+  font-size: 25px !important;
+  font-weight: 500 !important;
+}
+
+h4 {
+  font-size: 30px !important;
+  font-weight: 400 !important;
+}
+
+p {
+  font-size: 25px !important;
+  font-weight: 400 !important;
+}
+
+span {
+  font-size: 14px !important;
+}
+
+a {
+  font-size: 15px !important;
+  text-decoration: none !important;
+}
+
+#main-sec {
+  padding: 25px 0px 25px 0px;
+}
+
+.close-btn {
+  width: 100%;
+  margin: auto;
+  display: block;
+  text-align: right;
+  position: absolute;
+  top: 7px;
+  right: 5.9%;
+  left: -7%;
+  z-index: 1040;
+}
+
+.close-btn i {
+  background-color: #c17329;
+  color: #5b2310;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+  font-size: 30px;
+  border: 4px solid #d76816;
+  cursor: pointer;
+}
+.singup-overflow{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 25px;
+  padding-top: 10px;
+  max-height: 600px;
+}
+.singup-overflow::-webkit-scrollbar {
+  width: 8px;
+}
+
+.singup-overflow::-webkit-scrollbar-track {
+  background-color: transparent
+}
+
+.singup-overflow::-webkit-scrollbar-thumb {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+}
+
+.singup-overflow::-webkit-scrollbar-thumb:hover {
+  background-color: #d9d9d9;
+  transition: .2s
+}
+
+.text-link a {
+  cursor: pointer; 
+}
+
+/* START SIGNIN FORM */
+.signin-form {
+  width: 100%;
+  margin: auto;
+  display: block;
+  padding: 80px 40px 40px 40px;
+  border-radius: 20px;
+  border: 5px solid #D26A17;
+  background-color: #0000008a;
+}
+
+.signin-form h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.signin-form .text-info {
+  color: #fff !important;
+  opacity: 0.8;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.signin-form .form-floating {
+  margin: auto;
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.signin-form .form-floating input {
+  height: 55px !important;
+  background-color: #1e1e1e;
+  border: 1px solid #D26A17;
+  border-radius: 0px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.signin-form .form-floating input:focus {
+  background-color: #1e1e1e;
+  border: 1px solid #D26A17;
+  box-shadow: none;
+}
+
+.signin-form .form-floating label {
+  color: #bfbfbf;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.signin-form .bottom-info {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.signin-form .bottom-info .text-link {
+  text-align: right;
+  display: block;
+}
+
+.signin-form .bottom-info .text-link a {
+  color: #fff;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
+.signin-form .bottom-info .text-link a:hover {
+  color: #D26A17;
+  transition: 0.5s;
+}
+
+.signin-form .bottom-info button {
+  background-color: #D26A17;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0px;
+  letter-spacing: 0.5px;
+  width: 50%;
+  height: 50px;
+  border: none;
+  box-shadow: none;
+  margin-top: 10px;
+  margin: auto;
+  display: block
+}
+
+.signin-form .bottom-info button:focus {
+  box-shadow: none;
+}
+
+.signin-form .bottom-info button:hover {
+  background-color: #fff;
+  transition: 0.5s;
+  color: #000;
+}
+
+.signin-form .bottom-info .text-span {
+  color: #fff !important;
+  opacity: 0.8;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding-top: 30px;
+}
+
+.signin-form .text-signup {
+  color: #D26A17;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.signin-form .text-signup:hover {
+  color: #fff;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+/* END SIGNIN FORM */
+/* START SIGNUP FORM */
+.signup-form {
+  width: 100%;
+  margin: auto;
+  display: block;
+  padding: 70px 40px 25px 40px;
+  border-radius: 20px;
+  background-color: #0000008a;
+  margin-top: 10px;
+}
+
+.signup-form h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.signup-form .text-info {
+  color: #fff !important;
+  opacity: 0.8;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.signup-form .form-floating {
+  margin: auto;
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.signup-form .form-floating label {
+  color: #bfbfbf;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.signup-form .form-floating input {
+  height: 55px !important;
+  background-color: #1e1e1e;
+  border: 1px solid #D26A17;
+  border-radius: 0px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.signup-form .form-floating input:focus {
+  background-color: #1e1e1e;
+  border: 1px solid #D26A17;
+  box-shadow: none;
+}
+
+.signup-form .bottom-info {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.signup-form .bottom-info .text-link {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.signup-form .bottom-info .text-link a {
+  color: #D26A17;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
+.signup-form .bottom-info .text-link a:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.signup-form .bottom-info .circle-i {
+  color: #fff;
+  margin-right: 5px;
+  margin-top: 25px;
+}
+
+.signup-form .bottom-info .text-msg {
+  color: #fff;
+  opacity: 0.8;
+  margin-top: 25px;
+}
+
+.signup-form .bottom-info button {
+  background-color: #D26A17;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0px;
+  letter-spacing: 0.5px;
+  width: 50%;
+  height: 50px;
+  border: none;
+  box-shadow: none;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signup-form .bottom-info button:focus {
+  box-shadow: none;
+}
+
+.signup-form .bottom-info button:hover {
+  background-color: #fff;
+  transition: 0.5s;
+  color: #000;
+}
+
+.signup-form .bottom-info .text-span {
+  color: #fff !important;
+  opacity: 0.8;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding-top: 30px;
+}
+
+.signup-form .text-signup {
+  color: #D26A17;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.signup-form .text-signup:hover {
+  color: #fff;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+/* END SIGNUP FORM */
+
+/* START SIGNIN FORM */
+.table-form {
+  padding: 30px 70px 25px 70px;
+}
+
+.table-form h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.table-form .table-span{
+  color: #fff;
+  font-size: 16px !important;
+  letter-spacing: 0.4px;
+  line-height: 50px;
+}
+.table-form .text-span{
+  color: #fff;
+  font-size: 16px !important;
+  letter-spacing: 0.4px;
+}
+.table-form .type-check{
+  margin-top: 30px;
+}
+.table-form .form-check label{
+  color: #fff;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.table-form .form-check .form-check-input {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.table-form .form-check-input:checked {
+  background-color: #864815;
+  border-color: #864815;
+}
+.table-form .form-check-input:focus{
+  box-shadow: none;
+}
+.table-form .text-info {
+  color: #fff !important;
+  opacity: 0.8;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.table-form .form-floating {
+  margin: auto;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.table-form .form-floating input {
+  height: 45px !important;
+  background-color: transparent;
+  border: 2px solid #D26A17;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.table-form .form-floating input:focus {
+  background-color: transparent;
+  border: 1px solid #D26A17;
+  box-shadow: none;
+}
+.table-form .form-group input{
+  height: 35px !important;
+  background-color: transparent;
+  border: 2px solid #D26A17;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 15px;
+  width: 45%;
+}
+.table-form .form-group input:focus{
+  background-color: transparent;
+  border: 1px solid #D26A17;
+  box-shadow: none;
+}
+.table-form .form-floating label {
+  color: #bfbfbf;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.table-form .bottom-info {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.table-form .bottom-info .text-link {
+  text-align: right;
+  display: block;
+}
+
+.table-form .bottom-info .text-link a {
+  color: #fff;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
+.table-form .bottom-info .text-link a:hover {
+  color: #D26A17;
+  transition: 0.5s;
+}
+
+.table-form .bottom-info button {
+  background-color: #864815;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  box-shadow: none;
+  margin-top: 10px;
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.table-form .bottom-info button:focus {
+  box-shadow: none;
+}
+
+.table-form .bottom-info button:hover {
+  background-color: #fff;
+  transition: 0.5s;
+  color: #000;
+}
+
+.table-form .bottom-info .text-span {
+  color: #fff !important;
+  opacity: 0.8;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding-top: 30px;
+}
+
+.table-form .text-signup {
+  color: #D26A17;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.table-form .text-signup:hover {
+  color: #fff;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.form-table {
+  width: 100%;
+  margin: auto;
+  display: block;
+  padding: 30px 30px 25px 30px;
+}
+.scrollbar
+{
+  height: 660px;
+  overflow-y: scroll;
+  border: 5px solid #D26A17;
+  background-color: #0000008a;
+  border-radius: 20px;
+}
+
+.force-overflow
+{
+	min-height: 660px;
+}
+
+#style-2::-webkit-scrollbar-track
+{
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	background-color: #d9d9d9;
+}
+
+.form-table h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.form-table .user-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 18px;
+  margin-right: 50px;
+  border:2px solid #4a4744;
+}
+.form-table .user-name{
+  color: #fff;
+  font-size: 18px !important;
+  margin-left: 45px;
+  font-weight: 600 !important;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.form-table .user-email{
+  font-size: 16px !important;
+  font-weight: 400;
+  color: #b7b7b5;
+  margin-left: 45px;
+}
+.form-table .enable-btn{
+  text-align: right;
+  margin-top: 30px;
+}
+.form-table .enable-btn a {
+  background-color: #864815;
+  color: #fff;
+  font-size: 16px !important;
+  font-weight: 500;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  padding: 8px 40px 8px 40px;
+  border: none;
+  box-shadow: none;
+}
+
+.form-table .enable-btn a:focus {
+  box-shadow: none;
+}
+
+.form-table .enable-btn a:hover {
+  background-color: #fff;
+  transition: 0.5s;
+  color: #000;
+}
+.form-table .off-btn{
+  text-align: right;
+  margin-top: 30px;
+}
+.form-table .off-btn a {
+  background-color: #868c8d;
+  color: #fff;
+  font-size: 16px !important;
+  font-weight: 500;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  padding: 8px 35px 8px 35px;
+  border: none;
+  box-shadow: none;
+}
+
+.form-table .off-btn a:focus {
+  box-shadow: none;
+}
+
+/* END SIGNIN FORM */
+/* CHOOSE CARD START */
+.card-form{
+  border: 5px solid #D26A17;
+  background-color: #0000008a;
+  border-radius: 20px;
+  padding: 40px 70px 40px 70px;
+}
+.card-form h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.card-form .form-check label {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.card-form .form-check .form-check-input {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.card-form .form-check-input:checked {
+  background-color: #864815;
+  border-color: #864815;
+}
+.card-form .form-check-input:focus {
+  box-shadow: none;
+}
+.card-form .form-check{
+  margin-bottom: 15px;
+}
+.card-form .send-info{
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.card-form .send-info button{
+  background-color: #4ba769;
+  border: 0px;
+  color: #fff;
+  font-size: 15px;
+  padding: 6px 40px 6px 40px;
+  border-radius: 8px;
+}
+.card-form .send-info button:focus{
+  box-shadow: none;
+}
+/* END CHOOSE CARD */
+/* START JOIN TABLE */
+.join-form{
+  background-color: #0000008a;
+  border-radius: 20px;
+  padding: 40px 70px 40px 70px;
+}
+.close-button {
+  width: 15.5%;
+  margin: auto;
+  display: block;
+  text-align: right;
+  position: absolute;
+  top: 7px;
+  right: 5.9%;
+  left: -7%;
+  z-index: 1040;
+}
+.close-button i {
+  background-color: #c17329;
+  color: #5b2310;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+  font-size: 30px;
+  border: 4px solid #d76816;
+  cursor: pointer;
+}
+.join-form .table-h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.join-form input{
+  background-color: transparent;
+  border: 2px solid #D26A17;
+  border-radius: 10px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px!important;
+  border-right: 0px;
+  color: #fff !important;
+  font-size: 15px !important;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.join-form input:focus{
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px solid #D26A17;
+  border-right: 0px;
+}
+.join-form input::placeholder{
+  color: #ccc;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.join-form .input-group-text{
+  padding: 5px !important;
+  background-color: transparent;
+  border: 0px;
+  border-radius: 10px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top: 2px solid #D26A17;
+  border-right: 2px solid #D26A17;
+  border-bottom: 2px solid #D26A17;
+}
+.join-form .input-group-text button{
+  background-color: #D26A17;
+  border: 1px solid #D26A17;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.join-form .input-group-text button:focus{
+  box-shadow: none;
+}
+.join-form .input-group-text button:hover{
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  transition: 0.4s;
+}
+.join-form .table-card{
+  border: 2px solid #D06A1A;
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: #ffffff40;
+}
+.join-form .table-card h4{
+  font-size: 20px !important;
+  color: #BDBDBB;
+  font-weight: 500 !important;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.join-form .table-card h3{
+  font-size: 30px !important;
+  color: #fff;
+  font-weight: 500 !important;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.join-form .table-card h3 i{
+  font-size: 18px;
+  margin-left: 10px;
+}
+.table-card .join-btn{
+  margin-left: auto;
+  display: block;
+  width: 80px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  background-color: #d26a17;
+  border: 1px solid #d26a17;
+  color: #fff;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.table-card .join-btn:focus{
+  box-shadow: none;
+}
+.table-hr{
+  background-color: transparent;
+  border-bottom: 1px solid #71716c;
+  opacity: 1;
+}
+.table-bottom{
+  padding: 20px 20px 20px 20px;
+}
+.table-bottom .table-info h5{
+  font-size: 15px !important;
+  color: #fff;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px;
+  padding-bottom: 2px;
+}
+.table-bottom .table-info p{
+  background-color: #8b5f3c;
+  width: 115px;
+  font-size: 15px !important;
+  text-align: left;
+  padding-left: 10px;
+  color: #fff;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-radius: 4px;
+  border: 1px solid #D06A1A;
+}
+.table-info{
+  margin-bottom: 25px;
+}
+/* END JOIN TABLE */
+/* START POINT FORM */
+.point-form{
+  border: 5px solid #D26A17;
+  background-color: #0000008a;
+  border-radius: 20px;
+  padding: 50px 70px 50px 70px;
+}
+.point-form h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.point-form input{
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px!important;
+  border-top-right-radius: 0px!important;
+  border-bottom-right-radius: 0px!important;
+  border-right: 0px;
+  color: #fff !important;
+  font-size: 15px !important;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.point-form input:focus{
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px solid #fff;
+  border-right: 0px;
+}
+.point-form .input-group-text {
+  padding: 5px!important;
+  background-color: transparent;
+  border: 0px;
+  border-radius: 10px!important;
+  border-top-left-radius: 0px!important;
+  border-bottom-left-radius: 0px !important;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+.point-form .input-group-text button {
+  background-color: #407fde;
+  border: 1px solid #407fde;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 7px 25px 7px 25px;
+}
+.point-form .input-group-text button:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  transition: 0.4s;
+}
+.point-form .input-group-text button:focus {
+  box-shadow: none;
+}
+/* END POINT FORM */
+/* START EXIST FORM */
+
+.exist{
+  border: 5px solid #D26A17;
+  background-color: #0000008a;
+  border-radius: 20px;
+  padding: 50px 70px 50px 70px;
+}
+.exist h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.exist ul{
+  padding: 0px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.exist ul li{
+  margin-right: 30px;
+  display: inline-block;
+}
+.exist ul li .no-btn{
+  padding: 8px 40px 8px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #b2b2b2;
+  color: #000;
+  border: 0px;
+}
+.exist ul li .no-btn:focus{
+  box-shadow: none;
+}
+.exist ul li .yes-btn{
+  padding: 8px 40px 8px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #4ba769;
+  color: #fff;
+  border: 0px;
+}
+.exist ul li .yes-btn:focus{
+  box-shadow: none;
+}
+/* END EXIST FORM */
+/* START INVITATION FORM */
+.invite{
+  border: 5px solid #D26A17;
+  background-color: #0000008a;
+  border-radius: 20px;
+  padding: 30px 70px 30px 70px;
+}
+.invite .profile-img{
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.invite .profile-img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.invite .h4{
+  font-size: 20px !important;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.invite .table-info p{
+  font-size: 16px !important;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.invite .type-text{
+  color: #9fa29f !important;
+}
+.invite .invite-btn{
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.invite .invite-btn button{
+  padding: 8px 40px 8px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #4ba769;
+  color: #fff;
+  border: 0px;
+}
+.invite .invite-btn button:hover{
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+}
+.invite .invite-btn button:focus{
+  box-shadow: none;
+}
+/* END INVITATION FORM */
+/* START Trumpf FORM */
+.select-form{
+  border: 5px solid #D26A17;
+  background-color: #0000008a;
+  border-radius: 20px;
+  padding: 50px 70px 50px 70px;
+}
+.select-form h3 {
+  font-size: 30px !important;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.select-form .card{
+  background-color: #bfbfbf;
+  padding: 30px 25px 30px 25px;
+  border-radius: 10px;
+}
+.select-form .card .col{
+  padding: 15px 10px 15px 10px;
+  border: 2px solid transparent;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.select-form .card .col:hover{
+  border: 2px solid #d26a17;
+  transition: 0.4s;
+}
+.select-form .card-inner{
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 95%;
+}
+.select-form .card-inner .coin-img{
+  width: 30px;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.select-form .card-inner .card-img{
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  margin-bottom: 25px;
+}
+.select-form .card-inner span{
+  background-color: #d26a17;
+  color: #fff;
+  padding: 4px 15px 4px 15px;
+  border-radius: 50px;
+  font-size: 12px !important;
+}
+/* END Trumpf FORM */
+
+/* RESPONSIVE STYLING START*/
+
+@media (max-width:1199px) {
+  #main-sec {
+    height: auto;
+  }
+}
+
+@media (max-width:991px) {
+  .close-btn {
+    width: 100%;
+    left: 40px;
+    top: -60px;
+  }
+  .close-btn i {
+    padding: 5px 8px 5px 8px;
+    font-size: 20px;
+  }
+  /* START SIGIN STYLE */
+  .signin-form {
+    width: 100%;
+    padding: 40px 15px 40px 15px;
+  }
+  .signin-form .form-floating {
+    width: 100%;
+  }
+  .signin-form .bottom-info .text-span {
+    padding-top: 30px;
+  }
+  .signin-form .bottom-info {
+    width: 100%;
+  }
+  .signin-form .bottom-info .text-link {
+    text-align: right;
+  }
+  /* END SIGIN STYLE */
+  /* START SIGINUP STYLE */
+  .signup-form {
+    width: 100%;
+    padding: 40px 20px 30px 20px;
+  }
+  .signup-form .text-info {
+    margin-bottom: 10px !important;
+  }
+  .signup-form .form-floating {
+    margin-top: 20px;
+  }
+  .signup-form h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+  .signup-form .bottom-info .text-link {
+    margin-top: 10px;
+  }
+  .signup-form .bottom-info button {
+    font-size: 15px;
+    width: 50%;
+    height: 45px;
+    margin-top: 0px;
+  }
+  .signup-form .bottom-info .circle-i {
+    margin-right: 5px;
+  }
+  /* END SIGINUP STYLE */
+}
+
+@media (max-width:767px) {
+  .close-btn {
+    width: 100%;
+    left: 40px;
+    top: -60px;
+  }
+  .close-btn i {
+    padding: 5px 8px 5px 8px;
+    font-size: 20px;
+  }
+  /* START SIGIN STYLE */
+  .signin-form {
+    width: 100%;
+    padding: 30px 15px 30px 15px;
+  }
+  .signin-form .form-floating {
+    width: 100%;
+  }
+  .signin-form .bottom-info .text-span {
+    padding-top: 30px;
+  }
+  .signin-form .bottom-info {
+    width: 100%;
+  }
+  .signin-form .bottom-info .text-link {
+    text-align: right;
+  }
+  /* END SIGIN STYLE */
+  /* START SIGINUP STYLE */
+  .signup-form {
+    width: 100%;
+    padding: 40px 20px 30px 20px;
+  }
+  .signup-form .text-info {
+    margin-bottom: 10px !important;
+  }
+  .signup-form .form-floating {
+    margin-top: 20px;
+  }
+  .signup-form h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+  .signup-form .bottom-info .text-link {
+    margin-top: 10px;
+  }
+  .signup-form .bottom-info button {
+    font-size: 15px;
+    width: 50%;
+    height: 45px;
+    margin-top: 0px;
+  }
+  .signup-form .bottom-info .circle-i {
+    margin-right: 5px;
+  }
+  /* END SIGINUP STYLE */
+}
+
+@media (max-width:575px) {
+  .close-btn {
+    width: 100%;
+    left: 40px;
+    top: -60px;
+  }
+  .close-btn i {
+    padding: 5px 8px 5px 8px;
+    font-size: 20px;
+  }
+  /* START SIGIN STYLE */
+  .signin-form {
+    width: 100%;
+    padding: 30px 15px 30px 15px;
+  }
+  .signin-form .form-floating {
+    width: 100%;
+  }
+  .signin-form .bottom-info .text-span {
+    padding-top: 30px;
+  }
+  .signin-form .bottom-info {
+    width: 100%;
+  }
+  .signin-form .bottom-info .text-link {
+    text-align: right;
+  }
+  /* END SIGIN STYLE */
+  /* START SIGINUP STYLE */
+  .signup-form {
+    width: 100%;
+    padding: 40px 20px 30px 20px;
+  }
+  .signup-form .text-info {
+    margin-bottom: 10px !important;
+  }
+  .signup-form .form-floating {
+    margin-top: 20px;
+  }
+  .signup-form h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+  .signup-form .bottom-info .text-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .signup-form .bottom-info button {
+    font-size: 15px;
+    width: 50%;
+    height: 45px;
+    margin-top: 0px;
+  }
+  .signup-form .bottom-info .circle-i {
+    margin-right: 5px;
+  }
+  /* END SIGINUP STYLE */
+}
+
+@media (max-width:375px) {
+  .close-btn {
+    width: 100%;
+    left: 40px;
+    top: -60px;
+  }
+  .close-btn i {
+    padding: 5px 8px 5px 8px;
+    font-size: 20px;
+  }
+  /* START SIGIN STYLE */
+  .signin-form {
+    width: 100%;
+    padding: 30px 15px 30px 15px;
+  }
+  .signin-form .form-floating {
+    width: 100%;
+  }
+  .signin-form .bottom-info .text-span {
+    padding-top: 30px;
+  }
+  .signin-form .bottom-info {
+    width: 100%;
+  }
+  .signin-form .bottom-info .text-link {
+    text-align: right;
+  }
+  /* END SIGIN STYLE */
+  /* START SIGINUP STYLE */
+  .signup-form {
+    width: 100%;
+    padding: 40px 20px 30px 20px;
+  }
+  .signup-form .text-info {
+    margin-bottom: 10px !important;
+  }
+  .signup-form .form-floating {
+    margin-top: 20px;
+  }
+  .signup-form h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+  .signup-form .bottom-info .text-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .signup-form .bottom-info button {
+    font-size: 15px;
+    width: 50%;
+    height: 45px;
+    margin-top: 0px;
+    font-size: 13px;
+  }
+  .signup-form .bottom-info .circle-i {
+    margin-right: 5px;
+  }
+  /* END SIGINUP STYLE */
+}
+/* RESPONSIVE STYLING END*/

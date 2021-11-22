@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table | Jass</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+  </head>
+  <body class="bg-dark">
+    <section id="main-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <form>
+            <div class="scrollbar" id="style-2">
+              <div class="table-form">
+              <div class="force-overflow">
+                <h3>Start New Game</h3>
+                <div class="row">
+                  <div class="col-4">
+                    <span class="table-span">Table Name:</span>
+                  </div>
+                  <div class="col-8">
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="floatingInput" placeholder="Type Table Name" required>
+                      <label for="floatingInput">Type Table Name</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="type-check">
+                <div class="row">
+                  <div class="col-4">
+                    <span class="text-span">Table Type:</span>
+                  </div>
+                  <div class="col-8">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1" required>
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Public
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1" required>
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Private
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="type-check">
+                <div class="row">
+                  <div class="col-4">
+                    <span class="text-span">Play Type:</span>
+                  </div>
+                  <div class="col-8">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" required>
+                          <label class="form-check-label" for="flexRadioDefault3">
+                            Schieber
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2" required>
+                          <label class="form-check-label" for="flexRadioDefault2">
+                            Differenzler
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="type-check">
+                <div class="row">
+                  <div class="col-4">
+                    <span class="text-span">Play With:</span>
+                  </div>
+                  <div class="col-8">
+                      <div class="form-check mb-3">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" required>
+                        <label class="form-check-label" for="flexRadioDefault3">
+                          No of Hands
+                        </label>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" value="1">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" value="2">
+                      </div>
+                      <div class="form-check mt-3">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3" required>
+                        <label class="form-check-label" for="flexRadioDefault3">
+                          Points
+                        </label>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="type-check">
+                <div class="row">
+                  <div class="col-4">
+                    <span class="text-span">Carpet:</span>
+                  </div>
+                  <div class="col-8">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4" required>
+                          <label class="form-check-label" for="flexRadioDefault4">
+                            Blue
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4" required>
+                          <label class="form-check-label" for="flexRadioDefault4">
+                            Red
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="type-check">
+                  <div class="row">
+                    <div class="col-4">
+                      <span class="text-span">Cards:</span>
+                    </div>
+                    <div class="col-8">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5" required>
+                            <label class="form-check-label" for="flexRadioDefault5">
+                              French
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault5" required>
+                            <label class="form-check-label" for="flexRadioDefault5">
+                              German
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="bottom-info mt-2">
+                  <button type="submit" class="btn btn-light">Start Game</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            </form>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="scrollbar" id="style-2">
+            <div class="form-table">
+              <div class="force-overflow">
+                <h3>Invite Your Friends</h3>
+                <div class="row mt-4">
+                  <div class="col-8">
+                    <div class="row">
+                    <div class="col-2">
+                      <img class="user-img" src="assets/img/bg.png" alt="">
+                    </div>
+                    <div class="col-10">
+                      <h4 class="user-name">Anas Shafi</h4>
+                      <span class="user-email">info@gmail.com</span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="enable-btn">
+                      <a href="#" type="button">Invite</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-8">
+                    <div class="row">
+                    <div class="col-2">
+                      <img class="user-img" src="assets/img/bg.png" alt="">
+                    </div>
+                    <div class="col-10">
+                      <h4 class="user-name">Anas Shafi</h4>
+                      <span class="user-email">info@gmail.com</span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="off-btn">
+                      <a href="#" type="button">Offline</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-8">
+                    <div class="row">
+                    <div class="col-2">
+                      <img class="user-img" src="assets/img/bg.png" alt="">
+                    </div>
+                    <div class="col-10">
+                      <h4 class="user-name">Anas Shafi</h4>
+                      <span class="user-email">info@gmail.com</span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="enable-btn">
+                      <a href="#" type="button">Invite</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-8">
+                    <div class="row">
+                    <div class="col-2">
+                      <img class="user-img" src="assets/img/bg.png" alt="">
+                    </div>
+                    <div class="col-10">
+                      <h4 class="user-name">Anas Shafi</h4>
+                      <span class="user-email">info@gmail.com</span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="off-btn">
+                      <a href="#" type="button">Offline</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-8">
+                    <div class="row">
+                    <div class="col-2">
+                      <img class="user-img" src="assets/img/bg.png" alt="">
+                    </div>
+                    <div class="col-10">
+                      <h4 class="user-name">Anas Shafi</h4>
+                      <span class="user-email">info@gmail.com</span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="enable-btn">
+                      <a href="#" type="button">Invite</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-8">
+                    <div class="row">
+                    <div class="col-2">
+                      <img class="user-img" src="assets/img/bg.png" alt="">
+                    </div>
+                    <div class="col-10">
+                      <h4 class="user-name">Anas Shafi</h4>
+                      <span class="user-email">info@gmail.com</span>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="off-btn">
+                      <a href="#" type="button">Offline</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
