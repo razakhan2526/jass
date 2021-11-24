@@ -1049,10 +1049,8 @@ a {
 /* END Trumpf FORM */
 /* START diffrenzler FORM */
 .user-form{
-  border: 5px solid #D26A17;
-  background-color: #0000008a;
   border-radius: 20px;
-  padding: 30px 70px 30px 70px;
+  padding: 20px 70px 15px 70px;
 }
 .user-form h3 {
   font-size: 30px !important;
@@ -1063,14 +1061,14 @@ a {
 }
 .user-form .inner-form{
   background-color: #1e1e1e;
-  padding: 30px 50px 30px 50px;
+  padding: 30px 40px 30px 40px;
   border-radius: 10px;
   margin-left: 100px;
   margin-right: 100px;
 }
 .user-form .user-img{
-  width: 120px;
-  height: 120px;
+  width: 95px;
+  height: 95px;
   border-radius: 100px;
   border: 2px solid #cca040;
 }
@@ -1095,28 +1093,28 @@ a {
 }
 .user-form .tag-img img{
   height: 42px;
-  width: 170px;
+  width: 150px;
   object-fit: contain;
 }
 .user-form .hr{
   background-color: #fff;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
 .user-form .auto-btn{
   margin: auto;
   display: flex;
   text-align: center;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .user-form .success-btn{
   background-color: #4ba769;
   border: 1px solid #4ba769;
   color: #fff;
-  width: 50%;
-  height: 45px;
-  font-size: 18px !important;
+  width: 40%;
+  height: 40px;
+  font-size: 15px !important;
   letter-spacing: 0.5px;
   font-weight: 500;
   border-radius: 10px;
@@ -1133,9 +1131,9 @@ a {
   background-color: #e12a2a;
   border: 1px solid #e12a2a;
   color: #fff;
-  width: 50%;
-  height: 45px;
-  font-size: 18px !important;
+  width: 40%;
+  height: 40px;
+  font-size: 15px !important;
   letter-spacing: 0.5px;
   font-weight: 500;
   border-radius: 10px;
@@ -1149,18 +1147,18 @@ a {
   transition: 0.5s;
 }
 .user-form .left-logo{
-  width: 220px;
-  height: 61px;
+  width: 130px;
+  height: 40px;
   object-fit: contain;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .user-form .right-logo{
-  width: 170px;
-  height: 62px;
+  width: 120px;
+  height: 40px;
   object-fit: contain;
   margin-left: auto;
   display: block;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 /* END diffrenzler FORM */
 
